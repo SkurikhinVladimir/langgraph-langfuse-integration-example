@@ -22,14 +22,14 @@ docker-compose --env-file .env.demo up  --build -d
 
 ### 3. Открыть интерфейс Langfuse
 
-- 🌐[Web интерфейс Langfuse](http://localhost:3000)
-- [SSE клиент на fastapi](http://localhost:8001/docs#/)
-- [Документация Langgraph API](http://localhost:8000/docs#/)
-- [Langsmith](https://smith.langchain.com/studio/?baseUrl=http://localhost:8000)
+- [🌐 Web интерфейс Langfuse](http://localhost:3000)
+- [⚙️ SSE клиент (FastAPI)](http://localhost:8001/docs#/)
+- [🔁 Документация LangGraph API](http://localhost:8000/docs#/)
+- [🧠 LangSmith (через LangGraph endpoint)](https://smith.langchain.com/studio/?baseUrl=http://localhost:8000)
 
 ---
 
 ## Полезные ссылки
 
-- [Документация Langfuse](https://langfuse.com/docs)
-- [Документация LangGraph](https://langchain-ai.github.io/langgraph/)
+- [📘 Документация Langfuse](https://langfuse.com/docs)
+- [📘 Документация LangGraph](https://langchain-ai.github.io/langgraph/)
