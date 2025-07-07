@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+.env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# mypy
+.mypy_cache/
+
+# pytest
+.pytest_cache/
+
+# ruff
+.ruff_cache/
+
+# macOS
+.DS_Store
+
+# Docker
+*.log
+*.tmp
+dist/
+build/
+*.db
+*.sqlite3
+
+# Ignore local config
+config.yaml
+config.json
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+coverage.xml
+
+# Ignore test output
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Ignore backup files
+*.bak
+*.swp
+*.orig
+
+# Ignore lock files
+*.lock
